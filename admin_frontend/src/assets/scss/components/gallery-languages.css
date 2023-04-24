@@ -1,0 +1,48 @@
+.container-fluid .spin-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.container-fluid .ant-row .ant-col .ant-card {
+  height: 200px !important;
+  border-radius: 15px !important;
+  margin-bottom: 50px;
+}
+.container-fluid .ant-row .ant-col .ant-card .ant-card-body {
+  padding: 0;
+  border-radius: 15px !important;
+  outline: none;
+  overflow: hidden;
+}
+.container-fluid .ant-row .ant-col .ant-card .ant-card-body .ant-image {
+  height: 200px !important;
+}
+.container-fluid .ant-row .ant-col .ant-card .ant-card-body .icon-center .icon-center-delete {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.container-fluid .ant-row .ant-col .ant-card .ant-card-body .icon-center .icon-center-checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  width: 20px;
+  background: var(--subscribe);
+  border: none;
+}
+.container-fluid .ant-row .ant-col .ant-card .ant-card-body .icon-center .icon-center-checkbox .ant-checkbox-input {
+  width: 50%;
+}
+.container-fluid .ant-row .ant-col .ant-card:hover .icon-center .icon-center-delete {
+  display: block;
+}
+.container-fluid .ant-row .ant-col .images {
+  width: 260px !important;
+  height: 200px;
+}
+.container-fluid .ant-row .ant-col .card-active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}/*# sourceMappingURL=gallery-languages.css.map */

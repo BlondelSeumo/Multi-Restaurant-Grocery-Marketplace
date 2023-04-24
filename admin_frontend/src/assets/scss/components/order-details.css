@@ -1,0 +1,102 @@
+.order_details .order-details-info {
+  background: transparent;
+  border: none;
+}
+.order_details .order-details-info .ant-card-head {
+  padding: 0;
+}
+.order_details .order-details-info .ant-card-head .ant-card-head-title {
+  font-size: 28px;
+}
+.order_details .order-details-info .ant-card-head .ant-card-head-title .icon {
+  font-weight: 800;
+}
+.order_details .order-details-info .ant-card-body {
+  padding: 0px;
+}
+.order_details .delivery-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.order_details .delivery-info span {
+  display: inline-block;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.order_details .order_info .ant-card {
+  overflow: hidden;
+}
+.order_details .order-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.order_details .order-card-icon {
+  font-size: 2rem;
+}
+.order_details .customer-info-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.order_details .customer-info-container .customer-info-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  row-gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .order_details .customer-info-container .customer-info-detail {
+    grid-template-columns: 1fr;
+  }
+}
+.order_details .order-table .ant-card-body {
+  padding: 0 !important;
+}
+.order_details .order-table__summary {
+  padding: 20px;
+}
+.order_details .customer-name {
+  font-size: 1.2rem;
+}
+.order_details .customer-info {
+  display: flex;
+  flex-direction: column;
+}
+.order_details .customer-info .title {
+  font-weight: bold;
+}
+.order_details .customer-info .description {
+  display: inline-flex;
+  text-overflow: ellipsis;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+}
+.order_details .order-message {
+  width: 70%;
+  -webkit-border-radius: 15px;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius: 15px;
+  -moz-border-radius-bottomleft: 0;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  background-color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.order_details .order-message .message {
+  font-size: 1rem;
+}
+.order_details .order-message .date {
+  font-size: 0.7rem;
+}
+
+.bonus {
+  color: var(--dark-red);
+}/*# sourceMappingURL=order-details.css.map */

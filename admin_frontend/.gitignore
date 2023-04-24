@@ -1,0 +1,6 @@
+node_modules
+.github/workflows/main.yml
+package-lock.json
+yarn.lock
+.env.local
+.vscode

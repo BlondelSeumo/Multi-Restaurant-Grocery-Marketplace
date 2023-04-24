@@ -1,0 +1,85 @@
+.container_check {
+  display: block;
+  box-sizing: border-box;
+}
+.container_check .check_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  padding: 50px;
+}
+.container_check .check_header .check_companyInfo {
+  text-align: end;
+  color: rgb(0, 0, 0);
+}
+.container_check .check_header .check_icon {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+.container_check .check_header span,
+.container_check .check_header h1,
+.container_check .check_header h5 {
+  color: rgb(0, 0, 0);
+}
+.container_check main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.container_check main .shop_data {
+  text-transform: uppercase;
+}
+.container_check footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  color: rgb(0, 0, 0);
+}
+.container_check footer span,
+.container_check footer h1 {
+  color: rgb(0, 0, 0);
+}
+
+[data-theme=dark] .container_check {
+  display: block;
+  box-sizing: border-box;
+}
+[data-theme=dark] .container_check .check_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  padding: 50px;
+}
+[data-theme=dark] .container_check .check_header .check_companyInfo {
+  text-align: end;
+}
+[data-theme=dark] .container_check .check_header .check_icon {
+  font-size: 60px;
+  color: #b3bdd1;
+}
+[data-theme=dark] .container_check .check_header span,
+[data-theme=dark] .container_check .check_header h1,
+[data-theme=dark] .container_check .check_header h5 {
+  color: #b3bdd1;
+}
+[data-theme=dark] .container_check main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+[data-theme=dark] .container_check footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+[data-theme=dark] .container_check footer span,
+[data-theme=dark] .container_check footer h1,
+[data-theme=dark] .container_check footer h5 {
+  color: #b3bdd1;
+}/*# sourceMappingURL=check.css.map */

@@ -1,0 +1,7 @@
+.dashboard-container{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,211 @@
+.order-add .bg-white {
+  padding: 0 !important;
+}
+.order-add .bg-white .ant-page-header .site-page-header .ant-page-header-ghost {
+  padding: 13px 14px !important;
+}
+.order-add .products-row {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+.order-add .products-row .products-col {
+  flex: 0 0 20%;
+  max-width: 20%;
+  cursor: pointer;
+  position: relative;
+}
+.order-add .products-row .products-col:hover .preview {
+  display: flex;
+}
+.order-add .products-row .products-col .preview {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 14;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.order-add .products-row .products-col .show-bonus {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #283142;
+  color: white;
+  border-radius: 8px;
+  padding: 3px 12px;
+}
+.order-add .order-item-img {
+  width: 100px;
+  height: 120px;
+}
+.order-add .order-item-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 8px;
+}
+.order-add .order-items {
+  position: relative;
+}
+.order-add .order-items .order-info {
+  position: --webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+.order-add .order-items .shop-card {
+  background-color: var(--background);
+}
+.order-add .order-items .shop-card .close-order {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.order-add .order-items .shop-card .edit-order {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.order-add .order-items .shop-card .extras-color {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.order-add .order-items .shop-card .extras-text {
+  display: block;
+  text-align: center;
+  min-width: 30px;
+  padding: 3px;
+  border: 1px solid var(--grey);
+  padding: 5px 12px;
+}
+.order-add .order-items .shop-card .extras-image {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.order-add .order-items .shop-card .white-space-wrap {
+  white-space: normal;
+}
+.order-add .order-items .ant-card-cover img {
+  height: 160px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.order-add .order-items .additional-price {
+  font-weight: normal;
+  text-align: right;
+  color: var(--subscribe);
+  font-size: 12px;
+}
+.order-add .order-items .product-price {
+  margin-top: 6px;
+}
+.order-add .order-items .shop-total p {
+  margin: 0;
+}
+.order-add .order-detail-info .ant-card-head {
+  padding: 0 !important;
+}
+.order-add .order-detail-info .ant-card-head .ant-card-head-wrapper {
+  padding: 0 12px 0 12px !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.order-add .order-detail-info .ant-card-head .ant-card-head-wrapper .ant-card-extra {
+  width: 30%;
+}
+
+.extra-group {
+  padding: 10px 0;
+}
+
+.extras-select .extras-color-wrapper {
+  display: block;
+  padding: 3px;
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  cursor: pointer;
+}
+.extras-select .extras-color-wrapper .extras-color {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.extras-select .extras-color-wrapper.selected {
+  border-color: var(--dark);
+}
+.extras-select .extras-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  padding: 3px;
+  border: 1px solid var(--grey);
+  cursor: pointer;
+}
+.extras-select .extras-text.selected {
+  border-color: var(--dark);
+}
+.extras-select .extras-image {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: 1px solid var(--grey);
+  cursor: pointer;
+}
+.extras-select .extras-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.extras-select .extras-image.selected {
+  border-color: var(--dark);
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+[data-theme=dark] .order-add .products-row .ant-card-bordered .ant-card-cover {
+  margin: 0;
+}
+[data-theme=dark] .order-add .products-row .products-col {
+  overflow: hidden;
+  padding: 10px;
+}
+[data-theme=dark] .order-add .products-row .products-col .preview {
+  background-color: rgba(27, 37, 49, 0.5);
+  border-radius: 0.625rem;
+}
+[data-theme=dark] .order-add .order-items .shop-card {
+  background-color: rgb(50, 61, 82);
+}
+[data-theme=dark] .extras-select .extras-text,
+[data-theme=dark] .extras-select .extras-color-wrapper,
+[data-theme=dark] .extras-select .extras-image {
+  border-color: var(--dark-grey);
+}
+[data-theme=dark] .extras-select .extras-text.selected,
+[data-theme=dark] .extras-select .extras-color-wrapper.selected,
+[data-theme=dark] .extras-select .extras-image.selected {
+  border-color: var(--light-text);
+}
+[data-theme=dark] .order-preview .ant-card.ant-card-bordered {
+  background-color: var(--dark-background);
+}/*# sourceMappingURL=order-add.css.map */

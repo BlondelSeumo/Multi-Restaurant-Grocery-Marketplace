@@ -1,0 +1,73 @@
+.pricing .container-fluid .row .pricing-box {
+  position: relative;
+}
+.pricing .container-fluid .row .pricing-box .card {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  transition: 0.4s box-shadow ease-out;
+}
+.pricing .container-fluid .row .pricing-box .card .card-body .card-title {
+  color: var(--subscribe-text);
+  font-weight: 600;
+}
+.pricing .container-fluid .row .pricing-box .card .card-body span {
+  font-size: 2rem;
+  color: var(--subscribe);
+}
+.pricing .container-fluid .row .pricing-box .card .card-body .text {
+  font-size: 3rem;
+  color: var(--subscribe);
+}
+.pricing .container-fluid .row .pricing-box .card .card-body .month {
+  color: var(--subscribe);
+}
+.pricing .container-fluid .row .pricing-box .card .card-body .type {
+  font-size: 1.2rem;
+  color: var(--subscribe-text);
+}
+.pricing .container-fluid .row .pricing-box .card .card-body .active {
+  color: var(--subscribe);
+  background-color: transparent;
+  font-size: 1.2rem !important;
+  border: none;
+}
+.pricing .container-fluid .row .pricing-box .card .icon-option {
+  position: absolute;
+  right: 15px;
+  top: 13%;
+}
+.pricing .container-fluid .row .pricing-box .card .ant-btn-default {
+  border-color: transparent;
+  color: var(--subscribe);
+  background: #f6fafd;
+  font-size: 1rem;
+}
+.pricing .container-fluid .row .pricing-box .card .button {
+  transition: 0.5s ease;
+  margin-bottom: 10px;
+}
+.pricing .container-fluid .row .pricing-box .card .button:hover {
+  transition: 0.5s ease;
+  background: var(--subscribe);
+  color: var(--white);
+  border-color: var(--subscribe);
+}
+.pricing .container-fluid .row .pricing-box .card:hover {
+  transition: 0.4s box-shadow ease-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.payment-card {
+  min-height: 111px;
+  cursor: pointer;
+}
+.payment-card.active {
+  border-color: var(--primary);
+}
+.payment-card .payment-icon {
+  width: 100%;
+  min-height: 42px;
+  font-size: 28px;
+}/*# sourceMappingURL=subscriptions.css.map */

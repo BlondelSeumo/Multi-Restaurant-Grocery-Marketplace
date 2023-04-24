@@ -1,0 +1,21 @@
+.global-settings {
+  padding: 80px !important;
+  background-image: url("../../../assets/images/17.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.global-settings .global-settings-container .steps-content {
+  height: 80vh;
+  background: white;
+  overflow-x: auto;
+  border-radius: 7px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+}
+.global-settings .global-settings-container .steps-content .steps-action {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 24px;
+}/*# sourceMappingURL=global-settings.css.map */

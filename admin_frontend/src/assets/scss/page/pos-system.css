@@ -1,0 +1,185 @@
+.pos-system .site-layout .products-col {
+  overflow: hidden;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.pos-system .site-layout .products-col:hover .preview {
+  display: flex;
+}
+.pos-system .site-layout .products-col .preview {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 14;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.pos-system .site-layout .products-col .show-bonus {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #283142;
+  color: white;
+  border-radius: 8px;
+  padding: 3px 12px;
+}
+.pos-system .site-layout .products-col .ant-card-cover img {
+  height: 160px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.pos-system .site-layout .card-save {
+  width: 100%;
+}
+.pos-system .site-layout .card-save .all-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.pos-system .site-layout .card-save .all-price .title {
+  font-weight: 800;
+}
+.pos-system .site-layout .card-save .all-price .clear-all {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  color: var(--danger);
+  font-weight: 800;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+  padding: 12px 24px 12px 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-img {
+  height: 50px;
+  margin-right: 10px;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-img .ant-image {
+  width: 100%;
+  height: 100%;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-img .ant-image img {
+  width: 100%;
+  height: 100%;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col {
+  width: 100%;
+  height: 100%;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .extras-color {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .extras-text {
+  display: block;
+  text-align: center;
+  min-width: 30px;
+  padding: 3px;
+  border: 1px solid var(--grey);
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .extras-image {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter .product-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--dark);
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter span span {
+  color: var(--danger);
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter .count {
+  display: flex;
+  align-items: center;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter .count span {
+  margin: 0 10px;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter .count .button-counter {
+  outline: none !important;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  background: #f8f8f8;
+}
+.pos-system .site-layout .card-save .custom-cart-container .product-row .product-col .product-counter .count .button-counter:nth-child(4) {
+  margin-left: 10px;
+  background: rgba(234, 234, 234, 0.55);
+}
+.pos-system .site-layout .card-save .all-price-row {
+  margin-top: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+.pos-system .site-layout .card-save .all-price-row .col {
+  padding: 0 12px;
+}
+.pos-system .site-layout .card-save .all-price-row .col .all-price-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.pos-system .site-layout .card-save .submit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+.pos-system .site-layout .card-save .submit-row .col {
+  display: flex;
+  flex-direction: column;
+}
+.pos-system .site-layout .card-save .submit-row .col span {
+  font-weight: 700;
+  font-size: 14px;
+}
+.pos-system .site-layout .card-save .submit-row .col span:nth-child(2) {
+  font-size: 18px;
+}
+.pos-system .site-layout .card-save .submit-row .col2 {
+  margin-right: 12px;
+}
+
+[data-theme=dark] .pos-system .site-layout .ant-card-bordered .ant-card-cover {
+  margin: 0;
+}
+[data-theme=dark] .pos-system .site-layout .products-col .preview {
+  background-color: rgba(27, 37, 49, 0.5);
+  border-radius: 0.625rem;
+}
+[data-theme=dark] .pos-system .site-layout .order-tabs .tabs .tab.active {
+  background-color: var(--dark-background);
+  border-color: var(--dark-background);
+}
+[data-theme=dark] .pos-system .site-layout .order-tabs .tabs .close-button {
+  color: var(--light-text);
+}
+[data-theme=dark] .pos-system .site-layout .button-counter {
+  background: none !important;
+}/*# sourceMappingURL=pos-system.css.map */

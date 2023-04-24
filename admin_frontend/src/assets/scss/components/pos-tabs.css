@@ -1,0 +1,51 @@
+.order-tabs .tab-card {
+  border-radius: 0 0.625rem 0.625rem 0.625rem;
+}
+.order-tabs .tabs-container {
+  position: relative;
+  width: 100%;
+  padding-right: 50px;
+}
+.order-tabs .tabs-container .tab-add-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.order-tabs .tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  bottom: -1px;
+  z-index: 2;
+  overflow-x: auto;
+}
+.order-tabs .tabs .tab {
+  flex-shrink: 0;
+  position: relative;
+  padding: 16px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  opacity: 0.5;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  border-radius: 0.625rem 0.625rem 0 0;
+  cursor: pointer;
+}
+.order-tabs .tabs .tab.active {
+  background-color: #fff;
+  opacity: 1;
+  border-color: var(--border-color);
+}
+.order-tabs .tabs .tab .close-button {
+  display: block;
+  font-size: 10px;
+  color: var(--dark);
+  font-weight: 500;
+  padding: 3px;
+  margin: 0;
+  border-radius: 50%;
+}
+.order-tabs .tabs .tab .close-button:hover {
+  background-color: var(--sidebar-active);
+}/*# sourceMappingURL=pos-tabs.css.map */

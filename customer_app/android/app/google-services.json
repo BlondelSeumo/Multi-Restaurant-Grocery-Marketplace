@@ -1,0 +1,150 @@
+{
+  "project_info": {
+    "project_number": "723986947199",
+    "project_id": "foodyman-703bd",
+    "storage_bucket": "foodyman-703bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723986947199:android:fe33d3535144b38ef5334a",
+        "android_client_info": {
+          "package_name": "com.foodyman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723986947199-kg2i0su8ekqia33732hdnmrtrhuina19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraEPokcqncELQIoXO2Phy0YZUUIaKqMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723986947199-kg2i0su8ekqia33732hdnmrtrhuina19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723986947199-98a74jf2bi2frl9ma948v1b4tcsusnpp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.foodyman.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723986947199:android:53a92bc02efb46e9f5334a",
+        "android_client_info": {
+          "package_name": "org.foodyman.deliveryman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723986947199-cbt0vkf2ho0voq9hqj69qm0oi9pqcdrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.foodyman.deliveryman",
+            "certificate_hash": "3fd1e3274c4e9d19f0ec40b401bc730a8a56ea34"
+          }
+        },
+        {
+          "client_id": "723986947199-rhq7ft2d35im5lj955og0744plagspab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.foodyman.deliveryman",
+            "certificate_hash": "3195a0a2668820525c2820cc2a9beee1c3dabb96"
+          }
+        },
+        {
+          "client_id": "723986947199-kg2i0su8ekqia33732hdnmrtrhuina19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraEPokcqncELQIoXO2Phy0YZUUIaKqMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723986947199-kg2i0su8ekqia33732hdnmrtrhuina19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723986947199-98a74jf2bi2frl9ma948v1b4tcsusnpp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.foodyman.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723986947199:android:ab9d4f7dac573051f5334a",
+        "android_client_info": {
+          "package_name": "org.foodyman.manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723986947199-fu627mob2il7a6b4cafp6mje7oaajhog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.foodyman.manager",
+            "certificate_hash": "3fd1e3274c4e9d19f0ec40b401bc730a8a56ea34"
+          }
+        },
+        {
+          "client_id": "723986947199-qgrcqf68g0lsg47297b1kou33o8slim1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.foodyman.manager",
+            "certificate_hash": "ef20db58f3aac68b67072f930605c43ad4f91e90"
+          }
+        },
+        {
+          "client_id": "723986947199-kg2i0su8ekqia33732hdnmrtrhuina19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraEPokcqncELQIoXO2Phy0YZUUIaKqMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723986947199-kg2i0su8ekqia33732hdnmrtrhuina19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723986947199-98a74jf2bi2frl9ma948v1b4tcsusnpp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.foodyman.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
